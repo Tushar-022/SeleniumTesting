@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="WebpageElementCounter Suite">
+    <test name="Element Counter Test">
+        <classes>
+            <class name="com.example.tests.CreateExcelFile"/>
+            <class name="com.example.tests.UpdateExcelFile"/>
+            <class name="com.example.tests.WebpageElementCounter"/>
+            <!-- <class name="com.seleniumtesting.DropdownItemCounter"/> -->
+            <class name="com.example.tests.LoginAutomationTest"/>
+            <class name="com.example.tests.WebpageElementCounter"/>
+        </classes>
+    </test>
+</suite>
